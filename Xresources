@@ -1,0 +1,33 @@
+rofi.font: "System San Francisco Display" 12
+URxvt.scrollBar: false
+URxvt.cursorBlink: false
+URxvt.font: xft:Hack-Regular:pixelsize=12
+!Urxvt*font: xft:Gohu GohuFont:style=Mono:pixelsize=17
+!URxvt.font: xft:scientifica:size=8
+!URxvt.boldFont: xft:scientifica:size=8
+!URxvt.italicFont: xft:scientifica:italic:size=8
+!URxvt.internalBorder: 10
+!URxvt.letterSpace: 1
+!URxvt.transparent: true
+!URxvt.shading: 30
+
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
+
+! Legacy Control-Shift-V/C for X clipboard
+URxvt.iso14755: false
+URxvt.iso14755_52:     false
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URXVT.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+! Disable Ctrl-Alt-c & Ctrl-Alt-v bindings (optional)
+URxvt.keysym.C-M-c:    builtin-string:
+URxvt.keysym.C-M-v:    builtin-string:
+
+! Legacy terminal theme
+*background: black
+*foreground: white
+
+! URxvt blur
+urxvt*blurRadius: 5
+Xft.dpi: 100
